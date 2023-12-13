@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Handlee';
+    color: white;
+    background-color:#404040;
+
+  }
+  
+  .container {
+    width: 60%; /* Adjust for narrow page */
+    margin: 0 auto; /* Wide margins */
+    text-align: center; /* Center content horizontally */
+  }
+  
+  img {
+    width: 100%; /* Responsive image */
+    height: auto;
+  }
+
+  a{
+    color: white;
+  }
+  a:hover{
+    color: gold;
+  }
+
+  .section{
+    font-size: 8rem;
+  }
+
+  .main{
+    font-size: 3rem;
+  }
+
+  .contact{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom:  10rem;
+  }
+  
