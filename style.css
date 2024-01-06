@@ -20,11 +20,6 @@ body, html {
     height: auto;
   }
 
-  p {
-    text-shadow: 2px 2px 4px #000000; /* Horizontal offset, vertical offset, blur radius, color */
-  }
-  
-
   a{
     color: white;
   }
@@ -38,6 +33,7 @@ body, html {
 
   .main{
     font-size: 4rem;
+    text-shadow: 2px 2px 4px #000000; 
   }
 
   .contact{
@@ -45,3 +41,71 @@ body, html {
     margin-bottom:  10rem;
   }
   
+  .menu {
+    font-family: 'Arial', sans-serif; 
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px; 
+    margin: 20px auto;
+}
+
+.menu h3 {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.menu p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu li p:first-child {
+    font-weight: bold;
+    color: #1a76d2;
+}
+
+.menu li p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.menu-intro {
+  font-family: 'Arial', sans-serif; 
+  background-color: #e8e8e8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  max-width: 800px;
+  margin: 20px auto;
+  margin-bottom: 0; /* To reduce space between intro and menu */
+}
+
+.menu-intro h2 {
+  color: #1a76d2;
+  margin-bottom: 10px;
+}
+
+.menu-intro p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
