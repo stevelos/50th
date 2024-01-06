@@ -16,7 +16,7 @@ body, html {
   }
 
   .menu-container {
-    width: 90%; /* Adjust for narrow page */
+    width: 95%; /* Adjust for narrow page */
     margin: 0 auto; /* Wide margins */
     text-align: center; /* Center content horizontally */
   }
