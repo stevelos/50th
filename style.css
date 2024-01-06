@@ -14,6 +14,12 @@ body, html {
     margin: 0 auto; /* Wide margins */
     text-align: center; /* Center content horizontally */
   }
+
+  .menu-container {
+    width: 90%; /* Adjust for narrow page */
+    margin: 0 auto; /* Wide margins */
+    text-align: center; /* Center content horizontally */
+  }
   
   img {
     width: 100%; /* Responsive image */
@@ -47,7 +53,7 @@ body, html {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 800px; 
+    /* max-width: 800px;  */
     margin: 20px auto;
 }
 
