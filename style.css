@@ -115,3 +115,20 @@ body, html {
   margin-bottom: 10px;
 }
 
+.center-container {
+  display: flex;
+  justify-content: center; /* Aligns items on the main axis (horizontally in this case) */
+}
+
+.info-link{
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  background-color: #1a76d2;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  text-align: center;
+}
+
